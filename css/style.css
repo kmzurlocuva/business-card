@@ -1,0 +1,32 @@
+body {
+  display:block;
+}
+
+.header {
+  background-color: #CCC0AB;
+  color: black;
+
+  justify-content: space-around;
+  max-width: 100%;
+  flex-direction: column
+  }
+
+ul li {
+
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+footer {
+  background-color: #FFB129;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+h2 {
+  color: black;
+}
