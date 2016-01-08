@@ -11,10 +11,17 @@
 
 h1 {
   width: 48%;
+  font-size: 40px;
+  font-family: 'Over the Rainbow', cursive;
 }
 
 h2 {
   color: black;
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1em;
 }
 
 .tab {
