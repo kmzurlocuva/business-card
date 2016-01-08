@@ -1,0 +1,36 @@
+
+
+.header {
+  background-color: #CCC0AB;
+  color: black;
+
+  justify-content: space-around;
+  max-width: 100%;
+
+  }
+
+h1 {
+  width: 48%;
+}
+
+h2 {
+  color: black;
+}
+
+.tab {
+  padding: 0, 1em, 0, 1em;
+}
+
+footer {
+  background-color: #FFB129;
+  position:fixed;
+  left:0%;
+  bottom:0%;
+  height:30%;
+  width:100%;
+}
+
+#footer {
+  text-align: center;
+  align-items: center;
+}
