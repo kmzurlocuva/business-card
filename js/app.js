@@ -1,4 +1,3 @@
-
 var articles = [];
 
 function Article (options) {
@@ -9,9 +8,12 @@ function Article (options) {
   this.body = options.body;
   this.publishedOn = options.publishedOn;
 }
+
+Article.all = [];
+
 Article.prototype.toHtml = function() {
 
-  var appTemplate = $('#template').text()
+  var appTemplate = $('#template').text();
 
   var compileTemplate = Handlebars.compile(appTemplate);
 
@@ -56,17 +58,19 @@ this.publishStatus = this.publishedOn ? 'published ' + this.daysAgo + ' days ago
 //   return $newArticle;
 // }
 
-content.sort(function(a,b) {
-  return (new Date(b.publishedOn)) - (new Date(a.publishedOn));
-});
+Article.loadAll = function(contents) {
+  contents.sort(function(a,b) {
+    return (new Date(b.publishedOn)) - (new Date(a.publishedOn));
+  });
 
-content.forEach(function(ele) {
-  articles.push(new Article(ele));
-})
+  contents.forEach(function(ele) {
+    Article.all.push(new Article(ele));
+  })
+};
 
-articles.forEach(function(a){
-  $('#articles').append(a.toHtml())
-});
+// Articles.forEach(function(a){
+//   $('#articles').append(a.toHtml())
+// });
 
 var articleView = {};
 
@@ -109,9 +113,30 @@ articleView.handleMainNav = function() {
     $('.main-nav .tab:first').click();
     };
 
+Article.fetchAll = function() {
 
+    $.ajax({
+      url: '/js/contents.json',
+      dataType: 'JSON',
+      type: 'GET',
+      // context: contents,
+      success: function(contents) {
+        $(this).addClass("done");
+        Article.loadAll(contents);
+        localStorage.rawData = JSON.stringify(contents);
+        // articleView.initIndexPage();
+        console.log('successful ajax call');
+
+      }});
+};
+Article.initIndexPage = function() {
+  Article.all.forEach(function(contents){
+    $('#articles').append(contents.toHtml())
+  });
+}
 $(document).ready(function(){
   articleView.handleArticleDisplay();
   articleView.handleMainNav();
   articleView.populateFilters();
+
 });
