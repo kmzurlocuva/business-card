@@ -1,7 +1,13 @@
-body {
-  display:block;
+header {
+  background: url(../img/kzc.png) no-repeat top center;
 }
 
+body {
+  display:block;
+  background: transparent;
+}
+
+}
 
 ul {
   float: right;

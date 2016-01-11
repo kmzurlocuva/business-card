@@ -10,49 +10,51 @@
     <link rel="stylesheet" href="css/module.css">
     <link href='https://fonts.googleapis.com/css?family=Over+the+Rainbow' rel='stylesheet' type='text/css'>
     <script id="template" type="text/x-handlebars-template">
+      <article data-author="{{author}}">
       <h2>{{title}}</h2>
         <div class="byline">
-          By <address><a href="">{{author}}</a></address>
-          published <time pubdate datetime="2000-01-01">{{publishedOn}}</time>
+          By <address><a href="{{authorURL}}">{{author}}</a></address>
+          published <time {{daysAgo}} pubdate datetime="2000-01-01">{{publishedOn}}</time>
         </div>
-        <section class="article-body">{{body}}</section>
-        <a href="#" class="read-on">Read on &rarr;</a>
+        <section class="article-body">{{{body}}}</section>
+        <a href="#" class="read-on">See the Site</a>
+      </article>
     </script>
   </head>
   <body>
-    <nav class="main-nav">
+
       <header class="header">
-      <h1>Kate Zurlo-Cuva</h1>
 
-
-        <ul>
-          <li class="tab" data-content="articles"><a href="#">My Work</a></li>
-          <li class="tab" data-content="about"><a href="#"> About</a></li>
-          <li class="tab"><a href="https://github.com/kmzurlocuva"><img src="img/github.png"></a></li>
-          <li class="tab"><a href="https://www.linkedin.com/profile/view?id=AAIAAAFU9-8Bbv7vhR5XdEg2h2M1Icw7_keZCPQ&trk=nav_responsive_tab_profile_pic"><img src="img/linkedIn.png"></a></li>
-          <li class="tab"><a href="https://www.instagram.com/k8zc/"><img src="img/instagram.png"></a></li>
-        </ul>
+        <h1 id="blurb">“Love yourself. Then forget it. Then, love the world.” ~ Mary Oliver</h1>
+        <h1 id="headerName">Kate Zurlo-Cuva</h1>
       </header>
-    </nav>
+
 
     <main>
-      <section id="articles" class="tab-content">
-        <div>
+      <section id="articles" class="tab-content"></section>
+        <!-- <div>
           <select id="contentSelect"></select>
-        </div>
-        <article>
-          <section id="img"></section>
-        <article class="template template" data-category="about">
+        </div> -->
+
+      <section id="img"></section>
+        <article class="template template" data-category="about"></article>
           <!-- <div class="byline">
             By <address><a class="author-name" href="">Author Name</a></address>
             published <time pubdate datetime="2000-01-01">Publish Time</time>
           </div> -->
-        </article>
       </section>
+      <nav class="main-nav">
     </main>
-    <footer>
-      <h3 id="footer">Contact Kate</h3>
-      <h3 id="footer">Resume</h3>
+        <footer>
+          <ul>
+            <li>Contact Kate</li>
+            <li>Resume</li>
+            <li class="tab" data-content="articles"><a href="#">My Work</a></li>
+            <li class="tab" data-content="about"><a href="#"> About</a></li>
+            <li class="tab"><a href="https://github.com/kmzurlocuva"><img src="img/github.png"></a></li>
+            <li class="tab"><a href="https://www.linkedin.com/profile/view?id=AAIAAAFU9-8Bbv7vhR5XdEg2h2M1Icw7_keZCPQ&trk=nav_responsive_tab_profile_pic"><img src="img/linkedIn.png"></a></li>
+            <li class="tab"><a href="https://www.instagram.com/k8zc/"><img src="img/instagram.png"></a></li>
+          </ul>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>

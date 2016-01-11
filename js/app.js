@@ -11,7 +11,7 @@ function Article (options) {
 }
 Article.prototype.toHtml = function() {
 
-  var appTemplate = $('#template').html()
+  var appTemplate = $('#template').text()
 
   var compileTemplate = Handlebars.compile(appTemplate);
 
@@ -21,15 +21,19 @@ Article.prototype.toHtml = function() {
     authorUrl: this.authorUrl,
     publishedOn: this.publishedOn,
     body: this.body
-  };
+  }
 
   var html = compileTemplate(dataSource);
 
 this.daysAgo = parseInt((new Date() - new Date(this.publishedOn))/60/60/24/1000);
 this.publishStatus = this.publishedOn ? 'published ' + this.daysAgo + ' days ago' : '(draft)';
- $('#byLine').append(html);
+
+ return compileTemplate(this);
  };
-// Article.prototype.toHtml = function() {
+  // $('#byLine').append(html);
+
+
+
 //   var $newArticle = $('article.template').clone();
 //   $newArticle.removeClass('template');
 //   if (!this.publishedOn) {
