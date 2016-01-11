@@ -121,12 +121,12 @@ Article.fetchAll = function() {
       type: 'GET',
       // context: contents,
       success: function(contents) {
-        $(this).addClass("done");
+        // $(this).addClass("done");
         Article.loadAll(contents);
-        localStorage.rawData = JSON.stringify(contents);
+        // localStorage.rawData = JSON.stringify(contents);
         // articleView.initIndexPage();
         console.log('successful ajax call');
-
+        Article.initIndexPage();
       }});
 };
 Article.initIndexPage = function() {
