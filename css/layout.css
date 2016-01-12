@@ -1,0 +1,67 @@
+
+
+.header {
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+
+  -webkit-box-shadow: inset 10px 10px 16px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 10px 10px 16px -9px rgba(0,0,0,0.75);
+  box-shadow: inset 10px 10px 16px -9px rgba(0,0,0,0.75);
+
+
+  }
+
+h1 {
+  font-family: 'Over the Rainbow', cursive;
+}
+
+#headerName {
+  width: 40%;
+  font-size: 4em;
+  margin: 0;
+}
+
+#blurb {
+  font-size: 1.2em;
+  align-content: center;
+  color: #CCC0AB
+  text-shadow: white .5em 0 1em;
+}
+
+
+
+h2 {
+  color: black;
+  font-size: 2em;
+  padding: 0 auto;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+.tab {
+  padding: 0, 1em, 0, 1em;
+}
+
+footer {
+  background-color: #FFB129;
+  position:fixed;
+  left:0%;
+  bottom:0%;
+  height:15%;
+  width:100%;
+  padding: .1em;
+  -webkit-box-shadow: inset 10px 10px 16px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 10px 10px 16px -9px rgba(0,0,0,0.75);
+  box-shadow: inset 10px 10px 16px -9px rgba(0,0,0,0.75);
+
+
+}
+
+#footer {
+  text-align: center;
+  align-items: center;
+}

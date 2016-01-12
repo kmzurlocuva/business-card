@@ -1,15 +1,14 @@
-body {
-  display:block;
+header {
+  background: url(../img/kzc.png) no-repeat top center;
 }
 
-.header {
-  background-color: #CCC0AB;
-  color: black;
+body {
+  display:block;
+  background: transparent;
+}
 
-  justify-content: space-around;
-  max-width: 100%;
+}
 
-  }
 ul {
   float: right;
   width: 48%;
@@ -19,23 +18,12 @@ ul li {
   justify-content: flex-end;
   flex-direction: column;
   max-width: 20%;
-
 }
 
-footer {
-  background-color: #FFB129;
-}
+
 
 ul {
   text-decoration: none;
   list-style: none;
-  color: black;
-}
-
-h1 {
-  width: 48%;
-}
-
-h2 {
   color: black;
 }
