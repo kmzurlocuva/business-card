@@ -1,10 +1,12 @@
 header {
   background: url(../img/kzc.png) no-repeat top center;
+  padding-left: 0 auto;
 }
 
 body {
   display:block;
   background: transparent;
+
 }
 
 main {
