@@ -10,21 +10,14 @@
     <link rel="stylesheet" href="css/module.css">
     <link href='https://fonts.googleapis.com/css?family=Over+the+Rainbow' rel='stylesheet' type='text/css'>
     <script id="template" type="text/x-handlebars-template">
-      <article data-author="{{author}}">
-      <h2>{{title}}</h2>
+      <article id="authors" data-author="{{author}}">
+      <h2><a href="#" class="read-on"></a>{{{title}}}</h2>
         <div class="byline">
-          By <address><a href="{{authorURL}}">{{author}}</a></address>
-          published <time {{daysAgo}} pubdate datetime="2000-01-01">{{publishedOn}}</time>
         </div>
         <section class="article-body">{{{body}}}</section>
-        <a href="#" class="read-on">See the Site</a>
-
-
-        <script class="skillz" type="text/x-handlebars-template">{{skills}}</script>
-
-
       </article>
     </script>
+    <script id="skillz-template" type="text/x-handlebars-template">{{skills}}</script>
   </head>
   <body>
 
@@ -51,13 +44,13 @@
     </main>
     <footer>
       <ul>
-        <li>Contact Kate</li>
-        <li>Resume</li>
+        <li class="tab"><a href="zurlocuva@gmail.com"><img src="img/mail.png"</a></li>
+        <li class="tab"><a href="/xxxxx.pdf"><img src="img/resume.png"</li>
         <li class="tab"><a href="https://github.com/kmzurlocuva"><img src="img/github.png"></a></li>
         <li class="tab"><a href="https://www.linkedin.com/profile/view?id=AAIAAAFU9-8Bbv7vhR5XdEg2h2M1Icw7_keZCPQ&trk=nav_responsive_tab_profile_pic"><img src="img/linkedIn.png"></a></li>
         <li class="tab"><a href="https://www.instagram.com/k8zc/"><img src="img/instagram.png"></a></li>
-        <div class="skillz-placeholder"></div>
       </ul>
+      <div class="skillz-placeholder"></div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>

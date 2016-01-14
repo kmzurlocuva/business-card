@@ -7,17 +7,16 @@
 
  ul li {
   display: inline-block;
-
-
- }
 }
 
 article {
-  background-color: #CCC0AB;
-
-
-
-  }
-
+  /*background-color: #CCC0AB;*/
+  background-color: transparent;
+  width: 30%;
+  height: 30%;
+  display: inline-flex;
+  margin: 2% auto;
+  /*border-style: dashed;*/
+}
 
 }

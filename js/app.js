@@ -44,33 +44,20 @@ Article.loadAll = function(contents) {
     Article.all.push(new Article(ele));
   })
 };
-// $(function () {
-//   var template = $("#skillz").html();
-//   var compiled = Handlebars.compile(template);
-//   var skills = {'HTML & CSS', 'JavaScript & jQuery', 'program development', 'non-profit fund-raising', 'meeting facilitation', 'grant writing'};
-//
-//
-// // function add(previous, current) {
-// //   return (previous + current);
-// // }
-// //
-// // function skillz() {
-// //   var sum  = skills.reduce(add);
-// //   $('.skillz').toHtml(skills + sum);
-// // }
-// //
-// // $(function() {
-// //   skillz();
-// // });
-// var toHtml = compiled(skillz);
-//
-//   // Add the compiled html to the page
-//   $('.skillz-placeholder').html(toHtml);
-// });
 
-// Articles.forEach(function(a){
-//   $('#articles').append(a.toHtml())
-// });
+
+$(function () {
+  var template = $("#skillz-template").html();
+  var compiled = Handlebars.compile(template);
+  var skills = ['HTML & CSS', 'JavaScript & jQuery', 'program development', 'non-profit fund-raising', 'meeting facilitation', 'grant writing'];
+
+
+  var toHtml = compiled(skills);
+
+  $('.skillz-placeholder').html(toHtml);
+});
+
+
 
 var articleView = {};
 
@@ -103,7 +90,7 @@ articleView.handleArticleDisplay = function() {
     $('#category-filter').val('');
   });
 };
-// 
+//
 // articleView.handleMainNav = function() {
 //     $('main-nav').on('click', '.tab', function(event) {
 //       $('.tab-content').hide();
@@ -132,7 +119,6 @@ Article.initIndexPage = function() {
 }
 $(document).ready(function(){
   articleView.handleArticleDisplay();
-  articleView.handleMainNav();
   articleView.populateFilters();
 
 });

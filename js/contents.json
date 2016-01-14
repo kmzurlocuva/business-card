@@ -5,7 +5,7 @@
     "author": "Nadia Bahrami, Shelly Yusuf, Paul Sheridan, Kate Zurlo-Cuva",
     "authorUrl": "http://nadiabahrami.github.io/bucketlist/",
     "publishedOn": "2015-12-29",
-    "body": "<p>MLBucketList</p>"
+    "body": "<p id='projects'>A website developed as part of a 5-day sprint with three other students that utilizes the Google API to chart a path to visit as many Major League Baseball stadiums as you wish in a season. The project also logs user data that persists locally.</p>"
   },
 
   {
@@ -14,7 +14,7 @@
     "author":      "Kate Zurlo-Cuva",
     "authorUrl":   "http://nadiabahrami.github.io/bucketlist/",
     "publishedOn": "2015-12-20",
-    "body":        "<p>Choose a product that you would buy.</p>"
+    "body":        "<p id='projects'>Fun with tables, chart.js, and JavaScript forms/events.</p>"
   },
 
   {
@@ -23,6 +23,6 @@
     "author":      "Kate Zurlo-cuva",
     "authorUrl":   "http://kmzurlocuva.github.io/cookie-stand",
     "publishedOn": "2015-21-15",
-    "body":        "<p>Salmon cookies could be awesome.</p>"
+    "body":        "<p id='projects'>An exercise in client-based project development.</p>"
   }
 ]
