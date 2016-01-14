@@ -44,22 +44,29 @@ Article.loadAll = function(contents) {
     Article.all.push(new Article(ele));
   })
 };
-// 
-// var skills = ['HTML & CSS', 'JavaScript & jQuery', 'program development', 'non-profit fund-raising', 'meeting facilitation', 'grant writing'];
-//
-//
-// function add(previous, current) {
-//   return (previous + current);
-// }
-//
-// function skillz() {
-//   var sum  = skills.reduce(add);
-//   $('#skillz').toHtml(skills + sum);
-// }
-//
-// $(function() {
-//   skillz();
-// });
+$(function () {
+  var template = $("#skillz").html();
+  var compiled = Handlebars.compile(template);
+  var skills = ['HTML & CSS', 'JavaScript & jQuery', 'program development', 'non-profit fund-raising', 'meeting facilitation', 'grant writing'];
+
+
+function add(previous, current) {
+  return (previous + current);
+}
+
+function skillz() {
+  var sum  = skills.reduce(add);
+  $('.skillz').toHtml(skills + sum);
+}
+
+$(function() {
+  skillz();
+});
+var toHtml = compiled(skillz);
+
+  // Add the compiled html to the page
+  $('.skillz-placeholder').html(toHtml);
+});
 
 // Articles.forEach(function(a){
 //   $('#articles').append(a.toHtml())

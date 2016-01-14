@@ -18,6 +18,11 @@
         </div>
         <section class="article-body">{{{body}}}</section>
         <a href="#" class="read-on">See the Site</a>
+
+
+        <script class="skillz" type="text/x-handlebars-template">{{skills}}</script>
+
+
       </article>
     </script>
   </head>
@@ -31,7 +36,6 @@
 
 
     <main>
-      <div id="skillz"></div>
       <section id="articles" class="tab-content"></section>
         <!-- <div>
           <select id="contentSelect"></select>
@@ -44,18 +48,18 @@
             published <time pubdate datetime="2000-01-01">Publish Time</time>
           </div> -->
       </section>
-      <nav class="main-nav">
+      <div class="skillz-placeholder"></div>
     </main>
-        <footer>
-          <ul>
-            <li>Contact Kate</li>
-            <li>Resume</li>
-            <li class="tab" data-content="articles"><a href="#">My Work</a></li>
-            <li class="tab" data-content="about"><a href="#"> About</a></li>
-            <li class="tab"><a href="https://github.com/kmzurlocuva"><img src="img/github.png"></a></li>
-            <li class="tab"><a href="https://www.linkedin.com/profile/view?id=AAIAAAFU9-8Bbv7vhR5XdEg2h2M1Icw7_keZCPQ&trk=nav_responsive_tab_profile_pic"><img src="img/linkedIn.png"></a></li>
-            <li class="tab"><a href="https://www.instagram.com/k8zc/"><img src="img/instagram.png"></a></li>
-          </ul>
+    <footer>
+      <ul>
+        <li>Contact Kate</li>
+        <li>Resume</li>
+        <li class="tab" <a href="#">My Work</a></li>
+        <li class="tab" <a href="#"> About</a></li>
+        <li class="tab"><a href="https://github.com/kmzurlocuva"><img src="img/github.png"></a></li>
+        <li class="tab"><a href="https://www.linkedin.com/profile/view?id=AAIAAAFU9-8Bbv7vhR5XdEg2h2M1Icw7_keZCPQ&trk=nav_responsive_tab_profile_pic"><img src="img/linkedIn.png"></a></li>
+        <li class="tab"><a href="https://www.instagram.com/k8zc/"><img src="img/instagram.png"></a></li>
+      </ul>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
