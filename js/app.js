@@ -46,16 +46,33 @@ Article.loadAll = function(contents) {
 };
 
 
-$(function () {
-  var template = $("#skillz-template").html();
-  var compiled = Handlebars.compile(template);
-  var skills = ['HTML & CSS', 'JavaScript & jQuery', 'program development', 'non-profit fund-raising', 'meeting facilitation', 'grant writing'];
+// $(function () {
+//   var template = $("#skillz-template").html();
+//   var compiled = Handlebars.compile(template);
+//   var skills = ['HTML & CSS', 'JavaScript & jQuery', 'program development', 'non-profit fund-raising', 'meeting facilitation', 'grant writing'];
+//
+//
+//   var toHtml = compiled(skills);
+//
+//   $('.skillz-placeholder').html(toHtml);
+// });
+//
+//
+// articleView.populateFilters = function() {
+//   $('article').each(function() {
+//     if (!$(this).hasClass('template')) {
+//       var val = $(this).find('address a').text();
+//       var optionTag = '<option value="' + val + '">' + val + '</option>';
+//       $('#author-filter').append(optionTag);
+//
+//       val = $(this).attr('data-category');
+//       optionTag = '<option value="' + val + '">' + val + '</option>';
+//
+//
 
 
-  var toHtml = compiled(skills);
 
-  $('.skillz-placeholder').html(toHtml);
-});
+
 
 
 

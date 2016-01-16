@@ -1,55 +1,28 @@
 
 
-.header {
-  color: black;
+/*.header {
   display: flex;
-  justify-content: space-around;
-  max-width: 100%;
-
-  /*-webkit-box-shadow: inset 10px 10px 16px -9px rgba(0,0,0,0.75);
-  -moz-box-shadow: inset 10px 10px 16px -9px rgba(0,0,0,0.75);
-  box-shadow: inset 10px 10px 16px -9px rgba(0,0,0,0.75);*/
-
-    -moz-box-shadow: inset 0 0 6px 6px #E5E5E5;
-    -webkit-box-shadow: inset 0 0 6px 6px #E5E5E5;
-    box-shadow: inset 0 0 6px 6px #E5E5E5;
+  max-width: 100%;*/
 
 
   }
 
-h1 {
-  font-family: 'Over the Rainbow', cursive;
-}
 
-#headerName {
-  width: 40%;
-  font-size: 4em;
+
+h1 #headerName {
+  width: 80%;
   margin: 0;
 }
 
 #blurb {
   font-size: 1.2em;
-
-  align-content: center;
-  text-align: center;
+  width: 80%;
   /*color: #CCC0AB;*/
-  text-shadow: white .5em 0 1em;
   color: #FFB129;
-  height: 2em;
+  /*height: 2em;*/
   margin-top: 3.5em;
 }
 
-
-
-h2 {
-  color: black;
-  font-size: 2em;
-  padding: 0 auto;
-}
-
-h3 {
-  font-size: 1em;
-}
 
 .tab {
   padding: 0, 1em, 0, 1em;
@@ -61,20 +34,6 @@ h3 {
   margin-left: 2%;
 }
 
-footer {
-  background-color: #FFB129;
-  position:fixed;
-  left:0%;
-  bottom:0%;
-  height:15%;
-  width:100%;
-  padding: .1em;
-  -webkit-box-shadow: inset 10px 10px 16px -9px rgba(0,0,0,0.75);
-  -moz-box-shadow: inset 10px 10px 16px -9px rgba(0,0,0,0.75);
-  box-shadow: inset 10px 10px 16px -9px rgba(0,0,0,0.75);
-
-
-}
 
 #footer {
   text-align: center;
