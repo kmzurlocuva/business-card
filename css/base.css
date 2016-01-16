@@ -1,6 +1,6 @@
 header {
   position: fixed;
-  display:inline-block:
+  height: 13em;
 }
 
 body {
@@ -9,13 +9,14 @@ body {
 
 main {
 box-shadow: 0 4px 2px -2px gray;
-padding-bottom: 15%
+margin-bottom: 15em;
 
 }
 h1 {
   font-family: 'Over the Rainbow', cursive;
   font-size: 4em;
-  
+  margin: 0 auto;
+
 }
 
 h2 {

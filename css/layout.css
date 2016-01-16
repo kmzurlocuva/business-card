@@ -1,26 +1,29 @@
 
-
-/*.header {
+.header {
   display: flex;
-  max-width: 100%;*/
+  max-width: 100%;
+  background-color: white;
+}
 
-
-  }
+#katePic {
+  border-radius: 50%;
+  padding-right: 1em;
+}
 
 
 
 h1 #headerName {
-  width: 80%;
-  margin: 0;
+  width: 100%;
+  margin: 0 auto;
 }
 
 #blurb {
   font-size: 1.2em;
-  width: 80%;
+  width: 100%;
   /*color: #CCC0AB;*/
   color: #FFB129;
   /*height: 2em;*/
-  margin-top: 3.5em;
+  margin-top: 0 auto;
 }
 
 
