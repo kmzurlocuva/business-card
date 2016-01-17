@@ -1,5 +1,5 @@
 
-.header {
+header {
   display: flex;
   max-width: 100%;
   background-color: white;
@@ -20,9 +20,7 @@ h1 #headerName {
 #blurb {
   font-size: 1.2em;
   width: 100%;
-  /*color: #CCC0AB;*/
   color: #FFB129;
-  /*height: 2em;*/
   margin-top: 0 auto;
 }
 
@@ -38,7 +36,9 @@ h1 #headerName {
 }
 
 
-#footer {
-  text-align: center;
+#footerContent {
+  padding-top: 2em;
+  display: flex
+  text-align: left;
   align-items: center;
 }

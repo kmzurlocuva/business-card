@@ -8,7 +8,6 @@ body {
 }
 
 main {
-box-shadow: 0 4px 2px -2px gray;
 margin-bottom: 15em;
 
 }
@@ -20,12 +19,14 @@ h1 {
 }
 
 h2 {
+  font-family: helvetica;
   color: black;
   font-size: 2em;
   padding: 0 auto;
 }
 
 h3 {
+  font-family: helvetica;
   font-size: 1em;
 }
 
@@ -49,15 +50,16 @@ ul {
 }
 
 footer {
-  background-color: #FFB129;
+  background-color: #B1AEB2;
   left:0%;
   bottom:0%;
+  height: 10em;
   /*height:15%;*/
   width:100%;
   padding: .1em;
   -webkit-box-shadow: inset 10px 10px 16px -9px rgba(0,0,0,0.75);
   -moz-box-shadow: inset 10px 10px 16px -9px rgba(0,0,0,0.75);
   box-shadow: inset 10px 10px 16px -9px rgba(0,0,0,0.75);
-
+  display: inline-block;
 
 }
