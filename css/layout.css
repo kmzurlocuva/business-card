@@ -1,8 +1,5 @@
-
-header {
-  display: flex;
-  max-width: 100%;
-  background-color: white;
+* {
+  box-sizing: border-box;
 }
 
 #katePic {
@@ -25,20 +22,10 @@ h1 #headerName {
 }
 
 
-.tab {
-  padding: 0, 1em, 0, 1em;
-}
+
 
 #authors {
   text-align: center;
   align-items: center;
   margin-left: 2%;
-}
-
-
-#footerContent {
-  padding-top: 2em;
-  display: flex
-  text-align: left;
-  align-items: center;
 }

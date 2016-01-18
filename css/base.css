@@ -1,16 +1,21 @@
 header {
   position: fixed;
   height: 13em;
-}
+  display: flex;
+  width: 100%;
+  background-color: white;
+  }
+
 
 body {
   background: transparent;
 }
 
 main {
-margin-bottom: 15em;
-
+  width: 80%;
+  margin: 0 auto;
 }
+
 h1 {
   font-family: 'Over the Rainbow', cursive;
   font-size: 4em;
@@ -37,10 +42,10 @@ ul {
 }
 
 ul li {
-
-  justify-content: flex-end;
+  /*justify-content: flex-end;
   flex-direction: column;
-  max-width: 20%;
+  max-width: 20%;*/
+  background-color: white;
 }
 
 ul {
@@ -51,15 +56,9 @@ ul {
 
 footer {
   background-color: #B1AEB2;
-  left:0%;
-  bottom:0%;
-  height: 10em;
-  /*height:15%;*/
   width:100%;
-  padding: .1em;
-  -webkit-box-shadow: inset 10px 10px 16px -9px rgba(0,0,0,0.75);
+  /*-webkit-box-shadow: inset 10px 10px 16px -9px rgba(0,0,0,0.75);
   -moz-box-shadow: inset 10px 10px 16px -9px rgba(0,0,0,0.75);
-  box-shadow: inset 10px 10px 16px -9px rgba(0,0,0,0.75);
-  display: inline-block;
+  box-shadow: inset 10px 10px 16px -9px rgba(0,0,0,0.75);*/
 
 }
