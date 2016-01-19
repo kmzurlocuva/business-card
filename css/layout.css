@@ -4,7 +4,8 @@
 
 #katePic {
   border-radius: 50%;
-  padding-right: 1em;
+  border-color: 3px black;
+  /*padding-right: 1em;*/
 }
 
 
@@ -12,6 +13,8 @@
 h1 #headerName {
   width: 100%;
   margin: 0 auto;
+  padding-left: 15em;
+
 }
 
 #blurb {
@@ -19,8 +22,12 @@ h1 #headerName {
   width: 100%;
   color: #FFB129;
   margin-top: 0 auto;
+  padding-left: 3em;
 }
 
+.slogan {
+  background-color: #B1AEB2;
+}
 
 
 

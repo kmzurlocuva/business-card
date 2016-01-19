@@ -46,4 +46,7 @@ section ul li {
   display: inline;
   width: auto;
 }
+#blurb {
+  width: 20em;
+}
 }

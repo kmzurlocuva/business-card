@@ -1,5 +1,5 @@
 
-
+var aboutController = {};
 var articles = [];
 
 function Article (options) {
