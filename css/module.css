@@ -10,20 +10,32 @@
 }
 
 .navs {
-  text-decoration: none;
-  font-size: 1em;
+  width: 10em;
   display: inline-block;
 }
-.navs ul li {
+div #home a {
+  text-decoration: none;
+  font-size: 1em;
   text-decoration: none;
   color: white;
   padding: 1em;
   background-color: #B1AEB2;
   text-align: right;
+  display: inline-block;
 
 }
 
+div #about a {
+  text-decoration: none;
+  font-size: 1em;
+  text-decoration: none;
+  color: white;
+  padding: 1em;
+  background-color: #B1AEB2;
+  text-align: right;
+  display: inline-block;
 
+}
 
 
 article {
