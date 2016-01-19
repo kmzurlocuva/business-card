@@ -7,6 +7,8 @@
   width: 80%;
   margin: 0 auto;
   min-height: calc(100vh - 90px);
+}
+
 
  ul li {
   display: inline-block;
@@ -15,9 +17,8 @@
 article {
   /*background-color: #CCC0AB;*/
   background-color: transparent;
-  width: 30%;
   height: 30%;
-  display: inline-flex;
+  /*display: inline-flex;*/
   margin: 2% auto;
   /*border-style: dashed;*/
 }
@@ -38,15 +39,20 @@ article {
 
 section ul li {
   margin: 0 auto;
-  display: inline-block;
   padding: .2em;
 }
+
+
 .tab {
   margin: 0 auto;
   display: inline;
-  width: auto;
+  width: 0 auto
+  
 }
-#blurb {
-  width: 20em;
+
+#bioBlock {
+  background-color: #B1AEB2;
+  padding: 2em;
 }
+
 }
