@@ -9,10 +9,22 @@
   min-height: calc(100vh - 90px);
 }
 
-
- ul li {
+.navs {
+  text-decoration: none;
+  font-size: 1em;
   display: inline-block;
 }
+.navs ul li {
+  text-decoration: none;
+  color: white;
+  padding: 1em;
+  background-color: #B1AEB2;
+  text-align: right;
+
+}
+
+
+
 
 article {
   /*background-color: #CCC0AB;*/
@@ -23,12 +35,6 @@ article {
   /*border-style: dashed;*/
 }
 
-.skillz {
-  width: 100%;
-  margin: 0 auto;
-  padding: inherit;
-  align-content: space-between;
-}
 
 #footerContent {
   padding-top: 2em auto;
@@ -43,16 +49,24 @@ section ul li {
 }
 
 
+#slogan col {
+  display: inline-block;
+  width: 50%;
+  margin-right: -4px;
+
+}
+
 .tab {
   margin: 0 auto;
   display: inline;
   width: 0 auto
-  
+
 }
 
 #bioBlock {
   background-color: #B1AEB2;
   padding: 2em;
 }
+
 
 }
