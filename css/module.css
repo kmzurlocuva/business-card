@@ -81,7 +81,8 @@ section ul li {
 .tab {
   margin: 0 auto;
   display: inline;
-  width: 0 auto
+  width: 0 auto;
+  text-decoration: none;
 
 }
 
