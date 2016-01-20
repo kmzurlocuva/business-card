@@ -1,3 +1,5 @@
+
+var aboutController = {};
 var articles = [];
 
 function Article (options) {
@@ -32,31 +34,6 @@ this.publishStatus = this.publishedOn ? 'published ' + this.daysAgo + ' days ago
 
  return compileTemplate(this);
  };
-  // $('#byLine').append(html);
-
-
-
-//   var $newArticle = $('article.template').clone();
-//   $newArticle.removeClass('template');
-//   if (!this.publishedOn) {
-//     $newArticle.addClass('draft');
-//   }
-//
-//   $newArticle.attr('data-category', this.category);
-//   $newArticle.attr('data-author', this.author);
-//
-//
-//
-//   $newArticle.find('.byline a').html(this.author);
-//   $newArticle.find('.byline a').attr('href', this.authorUrl);
-//   $newArticle.find('h1:first').html(this.title);
-//   $newArticle.find('.article-body').html(this.body);
-//   $newArticle.find('time[pubdate]').attr('datetime', this.publishedOn)
-//   $newArticle.find('time[pubdate]').attr('title', this.publishedOn)
-//   $newArticle.find('time').html('about ' + parseInt((new Date() - new Date(this.publishedOn))/60/60/24/1000) + ' days ago')
-//   $newArticle.append('<hr>');
-//   return $newArticle;
-// }
 
 Article.loadAll = function(contents) {
   contents.sort(function(a,b) {
@@ -68,9 +45,36 @@ Article.loadAll = function(contents) {
   })
 };
 
-// Articles.forEach(function(a){
-//   $('#articles').append(a.toHtml())
+
+// $(function () {
+//   var template = $("#skillz-template").html();
+//   var compiled = Handlebars.compile(template);
+//   var skills = ['HTML & CSS', 'JavaScript & jQuery', 'program development', 'non-profit fund-raising', 'meeting facilitation', 'grant writing'];
+//
+//
+//   var toHtml = compiled(skills);
+//
+//   $('.skillz-placeholder').html(toHtml);
 // });
+//
+//
+// articleView.populateFilters = function() {
+//   $('article').each(function() {
+//     if (!$(this).hasClass('template')) {
+//       var val = $(this).find('address a').text();
+//       var optionTag = '<option value="' + val + '">' + val + '</option>';
+//       $('#author-filter').append(optionTag);
+//
+//       val = $(this).attr('data-category');
+//       optionTag = '<option value="' + val + '">' + val + '</option>';
+//
+//
+
+
+
+
+
+
 
 var articleView = {};
 
@@ -103,15 +107,15 @@ articleView.handleArticleDisplay = function() {
     $('#category-filter').val('');
   });
 };
-
-articleView.handleMainNav = function() {
-    $('main-nav').on('click', '.tab', function(event) {
-      $('.tab-content').hide();
-      $('#' + $(this).data('content')).fadeIn();
-    });
-
-    $('.main-nav .tab:first').click();
-    };
+//
+// articleView.handleMainNav = function() {
+//     $('main-nav').on('click', '.tab', function(event) {
+//       $('.tab-content').hide();
+//       $('#' + $(this).data('content')).fadeIn();
+//     });
+//
+//     $('.main-nav .tab:first').click();
+//     };
 
 Article.fetchAll = function() {
 
@@ -119,12 +123,8 @@ Article.fetchAll = function() {
       url: '/js/contents.json',
       dataType: 'JSON',
       type: 'GET',
-      // context: contents,
       success: function(contents) {
-        // $(this).addClass("done");
         Article.loadAll(contents);
-        // localStorage.rawData = JSON.stringify(contents);
-        // articleView.initIndexPage();
         console.log('successful ajax call');
         Article.initIndexPage();
       }});
@@ -136,7 +136,6 @@ Article.initIndexPage = function() {
 }
 $(document).ready(function(){
   articleView.handleArticleDisplay();
-  articleView.handleMainNav();
   articleView.populateFilters();
 
 });

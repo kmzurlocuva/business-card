@@ -1,29 +1,50 @@
 header {
-  background: url(../img/kzc.png) no-repeat top center;
-}
+  position: fixed;
+  height: 13em;
+  display: flex;
+  width: 100%;
+  background-color: white;
+  padding-top: 5em;
+  }
+
 
 body {
-  display:block;
   background: transparent;
 }
 
+main {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 215px;
 }
 
-ul {
-  float: right;
-  width: 48%;
-}
-ul li {
+h1 {
+  font-family: 'Over the Rainbow', cursive;
+  font-size: 4em;
+  margin: 0 auto;
+  margin-bottom: -20px;
 
-  justify-content: flex-end;
-  flex-direction: column;
-  max-width: 20%;
 }
 
-
-
-ul {
-  text-decoration: none;
-  list-style: none;
+h2 {
+  font-family: helvetica;
   color: black;
+  font-size: 2em;
+  padding: 0 auto;
+}
+
+h3 {
+  font-family: helvetica;
+  font-size: 1em;
+}
+
+footer {
+  background-color: #FFB129;
+  width:100%;
+  padding: 2em;
+  display: inline-block;
+  /*-webkit-box-shadow: inset 10px 10px 16px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 10px 10px 16px -9px rgba(0,0,0,0.75);
+  box-shadow: inset 10px 10px 16px -9px rgba(0,0,0,0.75);*/
+
 }

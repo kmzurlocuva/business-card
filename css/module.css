@@ -1,13 +1,109 @@
 @media only screen and (min-width: 640px) {
   .header {
     padding: .1em .1em .1em 2em;
-    display: flex;
+    /*display: flex;*/
+}
+.wrap {
+  width: 80%;
+  margin: 0 auto;
+  min-height: calc(100vh - 90px);
+}
 
- }
-
- ul li {
+.navs {
+  width: 10em;
   display: inline-block;
-  
+}
 
- }
+.navs #about {
+  /* gets the container for each link */
+  float: left;
+  margin-right: 15px;
+}
+
+div#home a {
+  text-decoration: none;
+  font-size: 1em;
+  text-decoration: none;
+  color: black;
+  padding: .5em;
+  background-color: #B1AEB2;
+  text-align: right;
+  display: inline-block;
+  margin-top: -2px;
+
+}
+
+div#home a:hover {
+  color: white;
+}
+
+div#about a {
+  text-decoration: none;
+  font-size: 1em;
+  text-decoration: none;
+  color: black;
+  padding: .5em;
+  background-color: #B1AEB2;
+  text-align: right;
+  display: inline-block;
+  margin-top: -2px;
+}
+
+div#about a:hover { 
+  color: white;
+}
+
+article {
+  /*background-color: #CCC0AB;*/
+  background-color: transparent;
+  height: 30%;
+  /*display: inline-flex;*/
+  margin: 2% auto;
+  /*border-style: dashed;*/
+}
+
+
+#footerContent {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+#coding {
+  width: 48%;
+  display: inline-block;
+}
+
+#icons {
+  width: 48%;
+  display: inline-block;
+  text-align: right;
+}
+
+section ul li {
+  margin: 0 auto;
+  padding: .2em;
+}
+
+
+#slogan col {
+  display: inline-block;
+  width: 50%;
+  margin-right: -4px;
+
+}
+
+.tab {
+  margin: 0 auto;
+  display: inline;
+  text-decoration: none;
+
+
+}
+
+#bioBlock {
+  background-color: #B1AEB2;
+  padding: 2em;
+}
+
+
 }

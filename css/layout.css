@@ -1,67 +1,37 @@
-
-
-.header {
-  color: black;
-  display: flex;
-  justify-content: space-around;
-  max-width: 100%;
-
-  -webkit-box-shadow: inset 10px 10px 16px -9px rgba(0,0,0,0.75);
-  -moz-box-shadow: inset 10px 10px 16px -9px rgba(0,0,0,0.75);
-  box-shadow: inset 10px 10px 16px -9px rgba(0,0,0,0.75);
-
-
-  }
-
-h1 {
-  font-family: 'Over the Rainbow', cursive;
+* {
+  box-sizing: border-box;
 }
 
-#headerName {
-  width: 40%;
-  font-size: 4em;
-  margin: 0;
+#katePic {
+  border-radius: 50%;
+  border-color: 3px black;
+  /*padding-right: 1em;*/
+}
+
+
+
+h1 #headerName {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15em;
+
 }
 
 #blurb {
   font-size: 1.2em;
-  align-content: center;
-  color: #CCC0AB
-  text-shadow: white .5em 0 1em;
+  width: 100%;
+  color: #FFB129;
+  margin-top: 0 auto;
+  padding-left: 3em;
+}
+
+.slogan {
+  background-color: #B1AEB2;
 }
 
 
-
-h2 {
-  color: black;
-  font-size: 2em;
-  padding: 0 auto;
-}
-
-h3 {
-  font-size: 1em;
-}
-
-.tab {
-  padding: 0, 1em, 0, 1em;
-}
-
-footer {
-  background-color: #FFB129;
-  position:fixed;
-  left:0%;
-  bottom:0%;
-  height:15%;
-  width:100%;
-  padding: .1em;
-  -webkit-box-shadow: inset 10px 10px 16px -9px rgba(0,0,0,0.75);
-  -moz-box-shadow: inset 10px 10px 16px -9px rgba(0,0,0,0.75);
-  box-shadow: inset 10px 10px 16px -9px rgba(0,0,0,0.75);
-
-
-}
-
-#footer {
+#authors {
   text-align: center;
   align-items: center;
+  margin-left: 2%;
 }
