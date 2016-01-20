@@ -24,29 +24,34 @@ div#home a {
   text-decoration: none;
   font-size: 1em;
   text-decoration: none;
-  color: white;
+  color: black;
   padding: .5em;
   background-color: #B1AEB2;
   text-align: right;
   display: inline-block;
   margin-top: -2px;
 
+}
+
+div#home a:hover {
+  color: white;
 }
 
 div#about a {
   text-decoration: none;
   font-size: 1em;
   text-decoration: none;
-  color: white;
+  color: black;
   padding: .5em;
   background-color: #B1AEB2;
   text-align: right;
   display: inline-block;
   margin-top: -2px;
-
-
 }
 
+div#about a:hover { 
+  color: white;
+}
 
 article {
   /*background-color: #CCC0AB;*/
@@ -59,10 +64,19 @@ article {
 
 
 #footerContent {
-  padding-top: 2em auto;
-  text-align: left;
-  align-items: center;
+  display: inline-block;
   margin: 0 auto;
+}
+
+#coding {
+  width: 48%;
+  display: inline-block;
+}
+
+#icons {
+  width: 48%;
+  display: inline-block;
+  text-align: right;
 }
 
 section ul li {
@@ -81,8 +95,8 @@ section ul li {
 .tab {
   margin: 0 auto;
   display: inline;
-  width: 0 auto;
   text-decoration: none;
+
 
 }
 
