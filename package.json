@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Code Fellows",
+  "author": "Kate Zurlo-Cuva",
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.3",
