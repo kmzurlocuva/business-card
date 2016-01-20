@@ -7,10 +7,10 @@
 
   $.ajax({
     url: 'https://api.github.com/users/kmzurlocuva/repos' +
-         '?per_page=5&sort=update',
+         '?per_page=3&sort=update',
     type: 'GET',
     headers: {'Authorization': 'token ' + githubToken },
-    success: function(data, message, xhr) {
+    success: function(data) {
       console.log(data);
       repos.all = data;
     }
