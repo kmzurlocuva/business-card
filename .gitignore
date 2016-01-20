@@ -1,5 +1,4 @@
 node_modules
 
-js/githubToken.js
-
-.gitignore
+gitHubToken.js
+js/gitHubToken.js
