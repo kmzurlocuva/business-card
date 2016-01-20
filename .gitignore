@@ -2,3 +2,5 @@ node_modules
 
 gitHubToken.js
 js/gitHubToken.js
+token.js
+js/token.js
