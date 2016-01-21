@@ -49,7 +49,7 @@ div#about a {
   margin-top: -2px;
 }
 
-div#about a:hover { 
+div#about a:hover {
   color: white;
 }
 
@@ -79,17 +79,26 @@ article {
   text-align: right;
 }
 
-section ul li {
-  margin: 0 auto;
-  padding: .2em;
+#skillz {
+  display: inline-block;
 }
 
 
-#slogan col {
+#quote {
   display: inline-block;
-  width: 50%;
-  margin-right: -4px;
+  width: 30%;
+}
 
+#abilities {
+  display: inline-block;
+  width: 30%;
+  text-decoration: none;
+}
+
+#learning {
+  display: inline-block;
+  width: 30%;
+  text-decoration: none;
 }
 
 .tab {
