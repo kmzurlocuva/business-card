@@ -9,12 +9,12 @@
   },
 
   {
-    "title":       "Bus Mall Site",
+    "title":       "My portfolio",
     "category":    "website",
     "author":      "Kate Zurlo-Cuva",
-    "authorUrl":   "http://nadiabahrami.github.io/bucketlist/",
-    "publishedOn": "2015-12-20",
-    "body":        "<p id='projects'>Fun with tables, chart.js, and JavaScript forms/events.</p>"
+    "authorUrl":   null,
+    "publishedOn": "2016-1-25",
+    "body":        "<p id='projects'>An ongoing personal learning project that utilizes Handlebars, WebDB, JSON, page.js Middleware, and represents my first stab at following an Model-View-Controller format.</p>"
   },
 
   {
@@ -22,7 +22,7 @@
     "category":    "website",
     "author":      "Kate Zurlo-cuva",
     "authorUrl":   "http://kmzurlocuva.github.io/cookie-stand",
-    "publishedOn": "2015-21-15",
-    "body":        "<p id='projects'>An exercise in client-based project development.</p>"
+    "publishedOn": "2015-12-15",
+    "body":        "<p id='projects'>My first deployed Web site: An exercise in client-based project development that utilizes CSS animation as well as an internal client site</a> using JS math functions, forms, and user events.</p>"
   }
 ]
