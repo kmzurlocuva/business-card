@@ -40,6 +40,8 @@ Article.loadAll = function(contents) {
     return (new Date(b.publishedOn)) - (new Date(a.publishedOn));
   });
 
+  Article.all = [];
+
   contents.forEach(function(ele) {
     Article.all.push(new Article(ele));
   })
@@ -130,6 +132,7 @@ Article.fetchAll = function() {
       }});
 };
 Article.initIndexPage = function() {
+  $('#articles').html('');
   Article.all.forEach(function(contents){
     $('#articles').append(contents.toHtml())
   });
