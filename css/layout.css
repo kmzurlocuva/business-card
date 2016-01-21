@@ -10,11 +10,11 @@
 
 
 
-h1 #headerName {
+#headerName {
   width: 100%;
   margin: 0 auto;
   padding-left: 15em;
-
+/*display: none;*/
 }
 
 #blurb {
