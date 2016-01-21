@@ -3,8 +3,9 @@
 
   repos.all = [];
 
-  repos.requestRepos = function(callback) {
+  // repos.requestRepos = function(callback) {
 
+/*
   $.ajax({
     url: 'https://api.github.com/users/kmzurlocuva/repos' +
          '?per_page=3&sort=update',
@@ -16,6 +17,18 @@
     }
   })
   .done(callback);
+};
+*/
+
+repos.requestRepos = function(callback) {
+ $.ajax({
+   url: '/github/users/kmzurlocuva/repos' +
+         '?per_page=3' + '&sort=updated',
+   type: 'GET',
+   success: function(data) {
+     repos.all = data;
+   }
+ }).done(callback);
 };
 
   repos.with = function(attr) {
