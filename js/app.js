@@ -47,37 +47,6 @@ Article.loadAll = function(contents) {
   })
 };
 
-
-// $(function () {
-//   var template = $("#skillz-template").html();
-//   var compiled = Handlebars.compile(template);
-//   var skills = ['HTML & CSS', 'JavaScript & jQuery', 'program development', 'non-profit fund-raising', 'meeting facilitation', 'grant writing'];
-//
-//
-//   var toHtml = compiled(skills);
-//
-//   $('.skillz-placeholder').html(toHtml);
-// });
-//
-//
-// articleView.populateFilters = function() {
-//   $('article').each(function() {
-//     if (!$(this).hasClass('template')) {
-//       var val = $(this).find('address a').text();
-//       var optionTag = '<option value="' + val + '">' + val + '</option>';
-//       $('#author-filter').append(optionTag);
-//
-//       val = $(this).attr('data-category');
-//       optionTag = '<option value="' + val + '">' + val + '</option>';
-//
-//
-
-
-
-
-
-
-
 var articleView = {};
 
 articleView.populateFilters = function() {
@@ -96,7 +65,6 @@ articleView.populateFilters = function() {
   });
 };
 
-
 articleView.handleArticleDisplay = function() {
   $('#contentSelect').on('change', function() {
     if ($(this).val()) {
@@ -109,15 +77,7 @@ articleView.handleArticleDisplay = function() {
     $('#category-filter').val('');
   });
 };
-//
-// articleView.handleMainNav = function() {
-//     $('main-nav').on('click', '.tab', function(event) {
-//       $('.tab-content').hide();
-//       $('#' + $(this).data('content')).fadeIn();
-//     });
-//
-//     $('.main-nav .tab:first').click();
-//     };
+
 
 Article.fetchAll = function() {
 

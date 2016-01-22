@@ -1,7 +1,6 @@
 @media only screen and (min-width: 640px) {
   .header {
     padding: .1em .1em .1em 2em;
-    /*display: flex;*/
 }
 .wrap {
   width: 80%;
@@ -57,9 +56,7 @@ article {
   /*background-color: #CCC0AB;*/
   background-color: transparent;
   height: 30%;
-  /*display: inline-flex;*/
   margin: 2% auto;
-  /*border-style: dashed;*/
 }
 
 
@@ -105,8 +102,6 @@ article {
   margin: 0 auto;
   display: inline;
   text-decoration: none;
-
-
 }
 
 #bioBlock {
