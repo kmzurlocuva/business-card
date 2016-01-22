@@ -1,3 +1,8 @@
+* {
+  list-style-type: none;
+  text-decoration: none;
+}
+
 header {
   position: fixed;
   height: 13em;
@@ -26,16 +31,28 @@ h1 {
 
 }
 
-h2 {
+h2 a {
   font-family: helvetica;
-  color: black;
-  font-size: 2em;
+  color: #817F82;
+  font-size: 1.5em;
   padding: 0 auto;
+}
+
+h2 a:hover {
+  color: black;
 }
 
 h3 {
   font-family: helvetica;
   font-size: 1em;
+}
+
+li a {
+  color: black;
+}
+
+li a:hover {
+  color: white;
 }
 
 footer {

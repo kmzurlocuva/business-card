@@ -11,7 +11,7 @@
     <link href='https://fonts.googleapis.com/css?family=Over+the+Rainbow' rel='stylesheet' type='text/css'>
     <script id="template" type="text/x-handlebars-template">
       <article id="authors" data-author="{{author}}">
-      <h2><a href="#" class="read-on"></a>{{{title}}}</h2>
+      <h2><a href="{{authorUrl}}">{{{title}}}</h2></a>
         <div class="byline">
         </div>
         <section class="article-body">{{{body}}}</section>
@@ -50,20 +50,20 @@
         </ul>
         <ul id="learning"><h2>What I like</h2>
           <li>Agile Development</li>
-          <li>User Stories</li>
           <li>Version Control with Git</li>
           <li>Collaboration</li>
           <li>Mobile First Design</li>
           <li>Functional Programming</li>
+          <li>Playing around with code</li>
         </ul>
         <h2 id="quote">“Love yourself. Then forget it. Then, love the world.” ~ Mary Oliver</h2>
       </section>
     </main>
     <footer id="footerContent">
       <section id="coding">
-      <h2>Want to know more?</h2>
-        <ul>My code under the hood:
-          <li id="github"></li>
+      <h2><a href="mailto:zurlocuva@gmail.com">Contact Me</a></h2>
+        <ul>
+          <li id="github">See my coding at Github</li>
         </ul>
       </section>
       <ul id="icons">
