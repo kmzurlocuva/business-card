@@ -2,7 +2,7 @@
   var repoView = {};
 
   var ui = function() {
-    var $about = $('#coding'); 
+    var $about = $('#coding');
 
     $about.find('ul').empty();
     $about.show().siblings().hide();
@@ -12,6 +12,7 @@
     console.log(repo);
     return $('<li>').html('<a href="' + repo.html_url + '">' + repo.name + '</a>');
   };
+
 
   //all the data is loaded, we can prep the UI and render the repos.
   repoView.index = function() {

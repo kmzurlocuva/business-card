@@ -13,6 +13,8 @@ repos.requestRepos = function(callback) {
      repos.all = data;
    }
  }).done(callback);
+ $('articles').hide();
+
 };
 
   repos.with = function(attr) {
