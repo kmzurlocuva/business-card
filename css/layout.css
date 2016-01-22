@@ -4,24 +4,19 @@
 
 #katePic {
   border-radius: 50%;
-  border-color: 3px black;
+  border: 2px solid black;
+  float: left;
+  margin-right: 35px;
 }
 
 
 
-h1 #headerName {
-  width: 100%;
-  margin: 0 auto;
-  padding-left: 15em;
-
+#headerName {
+  display: none;
 }
 
 #blurb {
-  font-size: 1.2em;
-  width: 100%;
-  color: #FFB129;
-  margin-top: 0 auto;
-  padding-left: 3em;
+  display: none;
 }
 
 .slogan {

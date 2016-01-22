@@ -8,9 +8,35 @@
   min-height: calc(100vh - 90px);
 }
 
+#headerContainer {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 80%;
+}
+
+#headerName {
+  display: inline-block;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: -20% auto;
+}
+
+#blurb {
+  font-size: 1.2em;
+  width: 70%;
+  color: #FFB129;
+  margin-top: 0 auto;
+  padding-left: 3em;
+  display: inline-block;
+}
+
 .navs {
   width: 10em;
   display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .navs #about {
