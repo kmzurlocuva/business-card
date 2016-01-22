@@ -7,15 +7,12 @@
   width: 100%;
 }
 
-
 #katePic {
   border-radius: 50%;
   border: 2px solid black;
   float: left;
   margin-right: 35px;
 }
-
-
 
 #headerName {
   display: none;

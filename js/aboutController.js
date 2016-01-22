@@ -3,7 +3,7 @@ var aboutController = {};
 
 aboutController.index = function() {
   console.log('we have reached the aboutController');
-    $('#template').hide();
+    // $('#template').hide();
     $('#bioBlock').show();
     repos.requestRepos(repoView.index);
   };
