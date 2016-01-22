@@ -85,6 +85,15 @@ article {
   margin: 2% auto;
 }
 
+#abilities {
+  list-style-type: none;
+  text-align: center;
+}
+
+#learning {
+  list-style-type: none;
+  text-align: center;
+}
 
 #footerContent {
   display: inline-block;
@@ -109,19 +118,33 @@ article {
 
 #quote {
   display: inline-block;
-  width: 30%;
+  width: 25%;
+  text-align: center;
 }
 
 #abilities {
   display: inline-block;
-  width: 30%;
+  width: 28%;
   text-decoration: none;
+  padding: 0;
+  margin-right: 4%;
+  margin-bottom: 4%;
+  padding-bottom: 4%;
+  margin-top: 4%;
+  border: solid 1em #B1AEB2;
 }
 
 #learning {
   display: inline-block;
-  width: 30%;
+  width: 28%;
   text-decoration: none;
+  padding: 0;
+  margin-right: 4%;
+  padding-bottom: 4%;
+  margin-bottom: 4%;
+  margin-top: 4%;
+  border: solid 1em #B1AEB2;
+
 }
 
 .tab {
@@ -131,8 +154,10 @@ article {
 }
 
 #bioBlock {
-  background-color: #B1AEB2;
-  padding: 2em;
+  /*background-color: #B1AEB2;*/
+  padding: 4em;
+  border: solid 1em #B1AEB2;
+
 }
 
 

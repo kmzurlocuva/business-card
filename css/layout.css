@@ -62,3 +62,34 @@ div#about a {
 div#about a:hover {
   color: white;
 }
+
+#quote {
+  display: none;
+  width: 25%;
+  text-align: center;
+}
+
+#abilities {
+  display: inline-block;;
+  width: 28%;
+  text-decoration: none;
+  padding: 0;
+  margin-right: 4%;
+  margin-bottom: 4%;
+  padding-bottom: 4%;
+  margin-top: 4%;
+  border: solid 1em #B1AEB2;
+}
+
+#learning {
+  display: inline-block;
+  width: 28%;
+  text-decoration: none;
+  padding: 0;
+  margin-right: 4%;
+  padding-bottom: 4%;
+  margin-bottom: 4%;
+  margin-top: 4%;
+  border: solid 1em #B1AEB2;
+
+}
