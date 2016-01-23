@@ -22,6 +22,13 @@
   margin-top: -20% auto;
 }
 
+#katePic {
+  border-radius: 50%;
+  border: 2px solid black;
+  float: left;
+  margin-right: 35px;
+}
+
 #blurb {
   font-size: 1.2em;
   width: 70%;
@@ -113,6 +120,7 @@ article {
   display: inline-block;
   width: 25%;
   text-align: center;
+  font-size: 2em;
 }
 
 #abilities {
@@ -121,9 +129,9 @@ article {
   text-decoration: none;
   padding: 0;
   margin-right: 4%;
-  margin-bottom: 4%;
+  margin-bottom: 6%;
   padding-bottom: 4%;
-  margin-top: 4%;
+  margin-top: 8%;
   border: solid 1em #B1AEB2;
 }
 
@@ -132,10 +140,10 @@ article {
   width: 28%;
   text-decoration: none;
   padding: 0;
-  margin-right: 4%;
+  margin-right: 6%;
   padding-bottom: 4%;
-  margin-bottom: 4%;
-  margin-top: 4%;
+  margin-bottom: 6%;
+  margin-top: 8%;
   border: solid 1em #B1AEB2;
 
 }
@@ -150,7 +158,7 @@ article {
   /*background-color: #B1AEB2;*/
   padding: 3em;
   border: solid 1em #817F82;
-  margin-top: : 4em;
+  margin-top: 8%;
   font-size: 1.25em;
 
 }

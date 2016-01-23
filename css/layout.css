@@ -2,16 +2,21 @@
   box-sizing: border-box;
 }
 
+header {
+  padding: 0;
+}
+
 #headerContainer {
-  margin: 0 auto;
-  width: 100%;
+  margin: 0;
+  width: 50%;
+  padding-top: 0;
 }
 
 #katePic {
   border-radius: 50%;
   border: 2px solid black;
-  float: left;
   margin-right: 35px;
+  padding-top: 0
 }
 
 #headerName {

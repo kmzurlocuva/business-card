@@ -14,7 +14,7 @@
     "author":      "Kate Zurlo-Cuva",
     "authorUrl":   null,
     "publishedOn": "2016-1-25",
-    "body":        "<p id='projects'>An ongoing personal learning project that utilizes Handlebars, WebDB, JSON, page.js Middleware, and represents my first stab at following an Model-View-Controller format.</p>"
+    "body":        "<p id='projects'>An ongoing personal learning project that utilizes Handlebars, WebDB, JSON, page.js Middleware, and represents my first stab at following a Model-View-Controller format.</p>"
   },
 
   {
