@@ -10,7 +10,7 @@
 
   var render = function(repo) {
     console.log(repo);
-    return $('<li>').html('<a href="' + repo.html_url + '">' + repo.name + '</a>');
+    return $('<li>').html('On Github: ' + '<a href="' + repo.html_url + '">' + repo.name + '</a>');
   };
 
 

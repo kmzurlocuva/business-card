@@ -6,15 +6,14 @@
 
 repos.requestRepos = function(callback) {
  $.ajax({
-   url: '/github/users/kmzurlocuva/repos' +
-         '?per_page=3' + '&sort=updated',
+  url: '/github/users/kmzurlocuva/repos' +
+         '?per_page=5' + '&sort=updated',
    type: 'GET',
    success: function(data) {
      repos.all = data;
    }
  }).done(callback);
- $('#articles').hide();
-
+ // $('#articles').hide();
 };
 
   repos.with = function(attr) {
