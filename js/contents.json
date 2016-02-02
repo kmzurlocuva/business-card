@@ -4,7 +4,7 @@
     "category":    "website",
     "author":      "Kate Zurlo-cuva",
     "authorUrl":   "http://baby-safe.herokuapp.com",
-    "publishedOn": "2016-1-29",
+    "publishedOn": "January 1, 2016",
     "body":        "<p id='projects'>A website developed as part of a 5-day sprint with three other students that utilizes two APIs (Wal-Mart and the Consumer Product Safety Commision(CPSC)) to generate simple and precise information for the user based on a product UPC search. The site verifies recall data from the CPSC, and where data are incomplete, compares with the product information from Wal-Mart, providing a seamless and reliable answer to the user.</p>"
   },
 
@@ -13,7 +13,7 @@
     "category": "website",
     "author": "Nadia Bahrami, Shelly Yusuf, Paul Sheridan, Kate Zurlo-Cuva",
     "authorUrl": "http://nadiabahrami.github.io/bucketlist/",
-    "publishedOn": "2015-12-29",
+    "publishedOn": "December 29, 2015",
     "body": "<p id='projects'>A website developed as part of a 5-day sprint with three other students that utilizes the Google API to chart a path to visit as many Major League Baseball stadiums as you wish in a season. The project also logs user data that persists locally.</p>"
   },
 
@@ -22,7 +22,7 @@
     "category":    "website",
     "author":      "Kate Zurlo-Cuva",
     "authorUrl":   null,
-    "publishedOn": "2016-1-25",
+    "publishedOn": "January 25, 2016",
     "body":        "<p id='projects'>An ongoing personal learning project that utilizes Handlebars, WebDB, JSON, page.js Middleware, and represents my first stab at following a Model-View-Controller format.</p>"
   },
 
@@ -31,7 +31,7 @@
     "category":    "website",
     "author":      "Kate Zurlo-cuva",
     "authorUrl":   "http://kmzurlocuva.github.io/cookie-stand",
-    "publishedOn": "2015-12-15",
+    "publishedOn": "December 15, 2015",
     "body":        "<p id='projects'>My first deployed Web site: An exercise in client-based project development that utilizes CSS animation as well as an internal client site</a> using JS math functions, forms, and user events.</p>"
   }
 ]

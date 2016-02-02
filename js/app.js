@@ -29,8 +29,6 @@ Article.prototype.toHtml = function() {
 
   var html = compileTemplate(dataSource);
 
-this.daysAgo = parseInt((new Date() - new Date(this.publishedOn))/60/60/24/1000);
-this.publishStatus = this.publishedOn ? 'published ' + this.daysAgo + ' days ago' : '(draft)';
 
  return compileTemplate(this);
  };
