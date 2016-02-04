@@ -5,7 +5,7 @@
     "author":      "Kate Zurlo-cuva",
     "authorUrl":   "http://baby-safe.herokuapp.com",
     "publishedOn": "January 1, 2016",
-    "body":        "<p id='projects'>A website developed as part of a 5-day sprint with three other students that utilizes two APIs (Wal-Mart and the Consumer Product Safety Commision(CPSC)) to generate simple and precise information for the user based on a product UPC search. The site verifies recall data from the CPSC, and where data are incomplete, compares with the product information from Wal-Mart, providing a seamless and reliable answer to the user.</p>"
+    "body":        "<p id='projects'>A website developed as part of a 5-day sprint with three other students that utilizes two APIs (Wal-Mart and the Consumer Product Safety Commision(CPSC)) to generate simple and precise information for the user based on a product UPC search. The site verifies recall data from the CPSC, and where data are incomplete, compares with the product information from Wal-Mart, providing a seamless and reliable answer to the user. Want to try it? Here's a few UPCs: 080213036911 or 766360093969.</p>"
   },
 
   {
